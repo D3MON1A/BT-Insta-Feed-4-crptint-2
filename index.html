@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/4831e94a15.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link rel="stylesheet" href="styles.css" />
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="containter-fluid">
+		<div class="row d-flex justify-content-center ">
+			<div class="col-12 ">
+				<nav class="navbar navbar-light  bg-light">
+					<a class="navbar-brand p-4 ml-5  text-muted" href="#">
+						<i class="fab fa-instagram fa-lg "></i>
+						Instagram
+					</a>
+					<div class="nav-item pr-4 d-flex justify-content-end">
+						<button type="button" class="btn btn-info btn-lg bg-success" data-toggle="modal" data-target="#myModal">Create a new post</button>
+						<div id="myModal" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+
+									<div class="modal-body border border-dark rounded m-3">
+										<p>
+											<placeholder></placeholder>
+										</p>
+									</div>
+
+									<div class="modal-icons">
+										<i class="fas fa-camera border border-secondary rounded p-1 ml-2"></i>
+										<i class="fas fa-map-marker-alt border border-secondary rounded-lg p-1 "></i>
+									</div>
+
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default border border-secondary" data-dismiss="modal">Cancel</button>
+										<button type="button" class="btn btn-default text-white bg-success" data-dismiss="modal">Publish</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="nav-item dropdown ">
+							<a class="nav-link dropdown-toggle text-muted" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-cog"></i>
+							</a>
+							<div class="dropdown-menu " aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Log Out</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+
+			</div>
+
+			<div class="col-12 d-flex justify-content-center">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item1" role="presentation">
+						<a class="nav-link active " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+							aria-controls="pills-home" aria-selected="true">
+							<i class="fas fa-th  bg-secondary"></i></a>
+					</li>
+					<li class="nav-item2 " role="presentation">
+						<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+							aria-controls="pills-profile"
+							aria-selected="false"><i class="fas fa-square  bg-secondary"></i></a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="tab-content " id="pills-tabContent">
+				<div class="tab-pane fade show active " id="pills-home" role="tabpanel"
+					aria-labelledby="pills-home-tab">
+					<div class="container-first-row-photos ">
+						<div class="row">
+							<div class="col-lg-4 p-1">
+								<img src="https://live.staticflickr.com/3404/3598988970_c166a1107f_b.jpg" width=100% height=400>
+						</div>
+								<div class="col-lg-4 p-1">
+									<img src="https://www.teahub.io/photos/full/21-218994_3840x2160-miami-beach-at-night-best-of-night.jpg" width=100% height=400 >
+						</div>
+									<div class="col-lg-4 p-1">
+										<img src="https://external-preview.redd.it/FlgOHiNcM3lZlLgksTL6a-XgqlpFQfgxH7pugN1Jx0w.jpg?auto=webp&s=9bb1b67590dfeaf9c65277818cdd20b5fb7a20e0" width=100% height=400 >
+						</div>
+									</div>
+								</div>
+								<div class="container-second-row-photos">
+									<div class="row">
+										<div class="col-lg-4 p-1">
+											<img src="https://images0.westend61.de/0001274482pw/aerial-view-above-of-buenos-aires-crowded-cityscape-argentina-AAEF05045.jpg"width=100% height=400 >
+						</div>
+											<div class="col-lg-4 p-1">
+												<img src="https://i.pinimg.com/originals/9f/75/bf/9f75bfb117ff45a46c80144ba5d46697.jpg" width=100% height=400 >
+						</div>
+												<div class="col-lg-4 p-1">
+													<img src="https://wallpaperaccess.com/full/492927.jpg" width=100% height=400 >
+						</div>
+												</div>
+											</div>
+											<div class="container-third-row-photos">
+												<div class="row">
+													<div class="col-lg-4 p-1">
+														<img src="https://www.goworldclass.com/images/crPoasVolcano.jpg" width=100% height=400 >
+						</div>
+														<div class="col-lg-4 p-1">
+															<img src="https://www.airpano.ru/files/santiago-chile/images/image1.jpg" width=100% height=400 >
+						</div>
+															<div class="col-lg-4 p-1">
+																<img src="https://floridatrippers.com/wp-content/uploads/2020/08/Miami-to-Key-West-Drive-Seven-Mile-Bridge.jpg" width=100% height=400 >
+						</div>
+															</div>
+														</div>
+													</div>
+
+													<div class="tab-pane fade bg-light" id="pills-profile"
+														role="tabpanel" aria-labelledby="pills-profile-tab">
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong> Maldives</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		1/9</p>
+																</div>
+																<img src="https://www.tripdolist.com/wp-content/uploads/2020/03/The-Retreat-from-above-best-things-to-do-in-maldives-1000x578.jpg" class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>923 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text ">Cast away in the turquoise waters of the Indian Ocean.
+																	</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>The Barolo Palace "Buenos Aires"</strong></p>
+																	<p
+																		class="number p-2flex-shrink-1 bd-highlight mr-2">
+																		2/9</p>
+																</div>
+																<img src="https://www.menteargentina.com/blog/wp-content/uploads/2015/12/12463600_10208952558111021_1308031783_n.jpg" class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>842 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">The Barolo Palace is divided into three parts, hell, purgatory and sky with a lighthouse at its apex representing the Empyrean. </p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>Rio De Janeiro</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		3/9</p>
+																</div>
+																<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Sun_Shines_Through_the_Clouds_Above_Rio_de_Janeiro_1.jpg" class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>1,085 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches.</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>Angel Falls Venezuela</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		4/9</p>
+																</div>
+																<img src="http://twistedsifter.com/wp-content/uploads/2012/02/dragon-falls-churun-meru-venezuela-from-above-aerial.jpg"  class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>1,220 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">It is the world's highest uninterrupted waterfall, with a height of 979 metres and a plunge of 807 m. 
+																	</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>New York Skyline</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		5/9</p>
+																</div>
+																<img src=https://broadway.showtickets.com/cdn/img/articles/broadway/10-best-views-new-york-city/nyc-skyline-600X400.jpg class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>842 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text"></p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong> Palm Jumeirah Dubai</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		6/9</p>
+																</div>
+																<img src="https://www.worthview.com/wp-content/uploads/2018/07/Luxury-Living.jpg" class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>1,022 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">The tree-shaped Palm Jumeirah island is known for glitzy hotels, posh apartment towers and upmarket global restaurants. </p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>Varadero-Cuba</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		7/9</p>
+																</div>
+																<img src="http://wheelsupnetwork.com/wp-content/uploads/2019/10/Varadero-Cuba.jpg" class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>832 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">Varadero, covering Cuba’s narrow Hicacos Peninsula, is a popular beach resort town. Along its 20km of Atlantic Ocean coastline is a string of all-inclusive hotel and spa complexes, and a golf course.</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>Gran Torre Santiago De Chile</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		8/9</p>
+																</div>
+																<img src=https://i.pinimg.com/originals/04/98/c2/0498c2869d9c066b7c2f930b8038683d.jpg class="card-img-top" alt="...">
+																<div class="img-caption p-2">
+																	<p><b>958 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">The Costanera Center Torre 2, better known as Gran Torre Santiago, and previously known as Torre Gran Costanera, is a 62-story tall skyscraper in Santiago, Chile, the second tallest in Latin America.
+																	</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="col-lg-12 d-flex justify-content-center p-4">
+															<div class="card" style="width: 40rem;">
+																<div class="post-header d-flex bd-highlight">
+																	<p class="title p-2 w-100 bd-highlight">
+																		<strong>Frankfurt Am Main Germany</strong></p>
+																	<p
+																		class="number p-2 flex-shrink-1 bd-highlight mr-2">
+																		9/9</p>
+																</div>
+																<img src="https://lh3.googleusercontent.com/proxy/F7mUcrBxk276bthwZPS5nfQXmbmxUmWRaAE-8WIwhFGATG4annHOW9NP8ongvnTYjgs3iFDUagMKTBDmNXrVKOSGfiLKlN83uJoj1ZNlk4pVui-uig-asgTwl9P_gJGMkleMIzKhjbO7I9nKThd4GnxiK5Hr "class="card-img-top" alt="...">
+																<div class="img-caption p-3">
+																	<p><b>980 Likes</b></p>
+																</div>
+																<div class="card-body">
+																	<p class="card-text">Frankfurt, a central German city on the river Main, is a major financial hub that's home to the European Central Bank. It's the birthplace of famed writer Johann Wolfgang von Goethe.
+																	</p>
+																</div>
+																<div
+																	class="footer d-flex justify-content-between text-muted">
+																	<div
+																		class="footer-left d-flex justify-content-between  ml-2">
+																		<i class="far fa-heart"></i>
+																		<p class="comment ml-4">Comment...</p>
+																	</div>
+																	<div class="footer-right mr-3">
+																		<i class="fas fa-ellipsis-v"></i>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+											integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+											crossorigin="anonymous">
+										</script>
+										<script
+											src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+											integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+											crossorigin="anonymous">
+										</script>
+										<script
+											src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+											integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+											crossorigin="anonymous">
+										</script>
+
+
+</body>
+
+</html>
